@@ -1,9 +1,9 @@
+import './post.css'
 
-
-export default function post() {
+export default function post({post}) {
     return(
         <div className="post">
-            It is a Post!
+            <img src={post.image} alt="" />
         </div>
     )
 }

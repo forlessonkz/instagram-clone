@@ -1,5 +1,5 @@
 import Footer from '@/components/Footer/Footer';
-import Posts from '../../components/posts/posts';
+import Posts from '../../components/posts-list/posts';
 import './profile.css';
 import Link from 'next/link';
 
