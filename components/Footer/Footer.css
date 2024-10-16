@@ -1,7 +1,6 @@
 .footer {
     text-align: center;
-    
-    padding: 50px 0 50px 0;
+    padding: 80px 0 50px 0;
 }
 
 .top > a {
@@ -24,25 +23,3 @@
     margin-right: 15px;
 }
 
-.post:hover a {
-    background-color: #000;
-}
-
-.post {
-    position: relative;
-    overflow: hidden;
-}
-
-.post img {
-    width: 100%; 
-    transition: filter 0.3s ease, transform 0.3s ease; 
-}
-
-.post:hover img {
-    filter: brightness(50%); 
-}
-
-.post:hover {
-    background-color: rgba(0, 0, 0, 0.114); 
-    transition: background-color 0.3s ease; 
-}

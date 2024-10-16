@@ -6,68 +6,80 @@ import Link from 'next/link';
 export default function profile() {
     return(
         <div className="profile-page">
-            <div className="nav-bar">
-                <div className="nav-container">
-                     <div className="nav-logo">
-                        <img src="/images/logo.png" alt=""/>
-                    </div>
-                    <div className="nav-list">
-                        <Link href = "">
-                            <div className="link-icon">
-                                <img src="/images/icons/home.png" alt="" />
-                            </div>
-                            Home
-                        </Link>
-                        <Link href = "">
-                            <div className="link-icon">
-                            <img src="/images/icons/search.png" alt="" />
-                            </div>
-                            Search query
-                        </Link>
-                        <Link href = "">
-                            <div className="link-icon">
-                                <img src="/images/icons/interesting.png" alt="" />
-                            </div>
-                            Interesting
-                        </Link>
-                        <Link href = "">
-                            <div className="link-icon">
-                                <img src="/images/icons/reels.png" alt="" />
-                            </div>
-                            Reels
-                        </Link>
-                        <Link href = "">
-                            <div className="link-icon">
-                                <img src="/images/icons/message.png" alt="" />
-                            </div>
-                            Messagess
-                        </Link>
-                        <Link href = "">
-                            <div className="link-icon">
-                                <img src="/images/icons/notifications.png" alt="" />
-                            </div>
-                            Notifications
-                        </Link>
-                        <Link href = "">
-                            <div className="link-icon">
-                                <img src="/images/icons/add.png" alt="" />
-                            </div>
-                            Create
-                        </Link>
-                        <Link className = "profile-icon" href = ""> 
-                            <div className="link-icon">
-                                <img src="/images/icons/profile-icon.png" alt="" />
-                            </div>
-                            Profile
-                        </Link>
-                    </div>
-                    <div className="nav-bottom">
-                        <Link href = "">Threads</Link>
-                        <Link href = "">More</Link>
+            <div className='nav-bar-contaner'>
+                <div className="nav-bar">
+                    <div className="nav-container">
+                        <div className="nav-logo">
+                            <img src="/images/logo.png" alt=""/>
+                        </div>
+                        <div className="nav-list">
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/home.png" alt="" />
+                                </div>
+                                Home
+                            </Link>
+                            <Link href = "">
+                                <div className="link-icon">
+                                <img src="/images/icons/search.png" alt="" />
+                                </div>
+                                Search query
+                            </Link>
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/interesting.png" alt="" />
+                                </div>
+                                Interesting
+                            </Link>
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/reels.png" alt="" />
+                                </div>
+                                Reels
+                            </Link>
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/message.png" alt="" />
+                                </div>
+                                Messagess
+                            </Link>
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/notifications.png" alt="" />
+                                </div>
+                                Notifications
+                            </Link>
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/add.png" alt="" />
+                                </div>
+                                Create
+                            </Link>
+                            <Link className = "profile-icon" href = ""> 
+                                <div className="link-icon">
+                                    <img src="/images/icons/profile-icon.png" alt="" />
+                                </div>
+                                Profile
+                            </Link>
+                        </div>
+                        <div className="nav-bottom">
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/threads.png" alt="" />
+                                </div>
+                                Threads
+                            </Link>
+                            <Link href = "">
+                                <div className="link-icon">
+                                    <img src="/images/icons/burger-menu.png" alt="" />
+                                </div>
+                                More
+                            </Link>
+                        </div>
                     </div>
                 </div>
-               
             </div>
+
             <div className="profile-container">
                 <div>
                     <div className="profile-header">
@@ -93,11 +105,11 @@ export default function profile() {
                             </div>
                             <ol className="about-user">
                                 <li className="name">Johnny Silverhand</li>
-                                <li className="profile-tagline">Личный блог</li>
+                                <li className="profile-tagline">Personal blog</li>
                                 <li className="link">wa.me/7058070114</li>
                             </ol>
                             <div className="some-subscribers">
-                                Подписаны <span>bestia p.palmer a.smesher</span>
+                            Signed b <span>bestia p.palmer a.smesher</span>
                                 <ol>
                                     <li></li>
                                     <li></li>

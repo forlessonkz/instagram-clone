@@ -6,9 +6,9 @@ export default function posts() {
         <div className="posts">
             <div className="post-list-header">
                 <div className='active'>
-                    <a href="">публикации</a>
+                    <a href="">publications</a>
                 </div> 
-                <div><a href="">отметки</a></div>
+                <div><a href="">marks</a></div>
             </div>
             <div className="post-list">
                 {POSTSDB.map(post => 

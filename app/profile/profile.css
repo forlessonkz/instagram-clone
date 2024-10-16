@@ -22,7 +22,12 @@
     height: 100%;
 }
 
+.nav-bar-contaner {
+    width: 18%;
+}
+
 .nav-bar {
+    position: fixed;
     width: 18%;
     height: 100vh;
     border-right: 1px solid #DBDBDB;
@@ -38,7 +43,6 @@
 .nav-logo > img {
     width: 102px;
 }
-
 
 .nav-list > a,
 .nav-bottom > a {
